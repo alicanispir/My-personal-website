@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>This is<br />
+						a personal website</h1>
+						<p>The website contains my skills and projects that I've done with Python Course series sold in Udemy Platform.
+						This template can be used for developing any personal website.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="https://en.wikipedia.org/wiki/Python_(programming_language)" class="logo">PythonLover 🐉</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Python projects</a></li>
+							<li><a href="{{ url_for('futureprojects') }}">Future projects</a></li>
+							<li><a href="{{ url_for('hobbies') }}">My hobby project</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://x.com/?lang=en" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.github.com/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">{{month}} {{day}}, {{year}}</span>
+									<h3>Python is not only an animal<br />
+									communication method with your computer</h3>
+									<p>Python is a highly versatile and popular programming language known for its simplicity and readability.</p>
+								</header>
+								<a href="#" class="image main"><img src="static/images/python.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="{{ url_for('about') }}" class="button large">Full Story</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">January 12, 2023</span>
+										<h2><a href="https://en.wikipedia.org/wiki/Hangman_(game)">Day:7 Hangman</a></h2>
+									</header>
+									<a href="https://en.wikipedia.org/wiki/Hangman_(game)" class="image fit"><img src="static/images/hangman.jpg" alt="" /></a>
+									<p>The Hangman game is a classic word-guessing game. In this game, one player thinks
+										of a word, and the other player(s) try to guess it by suggesting letters one at
+										a time. The goal is to guess the word before the player is "hanged," which is
+										represented by a stick figure drawing that progressively appears with each
+										incorrect guess.</p>
+<!--									<ul class="actions special">-->
+<!--										<li><a href="#" class="button">Full Story</a></li>-->
+<!--									</ul>-->
+								</article>
+								<article>
+									<header>
+										<span class="date">April 23, 2023</span>
+										<h2><a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet">Day:26 Nato Phonetic<br />
+										Alphabet</a></h2>
+									</header>
+									<a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet" class="image fit"><img src="static/images/nato_alphabet.png" alt="" /></a>
+									<p>The NATO phonetic alphabet is a standardized system used to ensure clarity and
+										avoid misunderstandings when spelling out words, especially over the radio or
+										telephone, where poor signal, accents, or noise could lead to confusion. Each
+										letter of the English alphabet is represented by a specific word, making it
+										easier to understand the intended message.</p>
+<!--									<ul class="actions special">-->
+<!--										<li><a href="#" class="button">Full Story</a></li>-->
+<!--									</ul>-->
+								</article>
+								<article>
+									<header>
+										<span class="date">May 2, 2023</span>
+										<h2><a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Day:28 Pomodoro Timer</a></h2>
+									</header>
+									<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" class="image fit"><img src="static/images/pomodoro.png" alt="" /></a>
+									<p>The Pomodoro Technique is a time management method designed to improve focus and
+										productivity by breaking work into short, timed intervals called "Pomodoros,"
+										separated by short breaks. Developed by Francesco Cirillo in the late 1980s,
+										this technique helps manage distractions and maintain high levels of
+										concentration.</p>
+<!--									<ul class="actions special">-->
+<!--										<li><a href="#" class="button">Full Story</a></li>-->
+<!--									</ul>-->
+								</article>
+								<article>
+									<header>
+										<span class="date">May 10, 2023</span>
+										<h2><a href="https://en.wikipedia.org/wiki/Flashcard">Flash Cards App</a></h2>
+									</header>
+									<a href="https://en.wikipedia.org/wiki/Flashcard" class="image fit"><img src="static/images/flashcard.png" alt="" /></a>
+									<p>The Flashcard Technique is a learning method that uses cards with a question,
+										term, or problem on one side and the corresponding answer or explanation on the
+										other. This technique is highly effective for memorization, self-testing, and
+										active recall, which are essential for retaining information over the
+										long term.</p>
+<!--									<ul class="actions special">-->
+<!--										<li><a href="#" class="button">Full Story</a></li>-->
+<!--									</ul>-->
+								</article>
+								<article>
+									<header>
+										<span class="date">June 29, 2023</span>
+										<h2><a href="https://en.wikipedia.org/wiki/Spotify">Spotify Playlist<br />
+										with Musical Time Machine</a></h2>
+									</header>
+									<a href="https://en.wikipedia.org/wiki/Spotify" class="image fit"><img src="static/images/spotify.png" alt="" /></a>
+									<p>With this project, it is possible to prepare a playlist for a specific time and
+										style in the Spotify application.</p>
+<!--									<ul class="actions special">-->
+<!--										<li><a href="#" class="button">Full Story</a></li>-->
+<!--									</ul>-->
+								</article>
+								<article>
+									<header>
+										<span class="date">July 4, 2023</span>
+										<h2><a href="https://en.wikipedia.org/wiki/Amazon_(company)">Amazon Price Tracker</a></h2>
+									</header>
+									<a href="https://en.wikipedia.org/wiki/Amazon_(company)" class="image fit"><img src="static/images/amazon.png" alt="" /></a>
+									<p>This project was created by using BeatifulSoup available in Python, is used to
+										track any specific item sold in Amazon website. The program alert the user/buyer
+										when any discount happens on the price of the item.</p>
+<!--									<ul class="actions special">-->
+<!--										<li><a href="#" class="button">Full Story</a></li>-->
+<!--									</ul>-->
+								</article>
+							</section>
+
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Av. Emile Max 55, 1030 Schaerbeek<br />
+								Brussels, BELGIUM</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>+32 000000000</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>pythonlover@gmail.com</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://x.com/?lang=en" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.github.com/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>This website was created for a Python course assignment.</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
